@@ -27,3 +27,11 @@ class Vehiculo {
 
     String propietario;
 }
+
+class Coche extends Vehiculo{
+
+}
+
+class Camion extends Vehiculo{
+
+}
