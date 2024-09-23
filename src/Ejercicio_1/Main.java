@@ -70,6 +70,8 @@ class Main {
         Vehiculo c2= new Coche("Honda");
         Vehiculo c3=new Coche("Ford");
 
+        Vehiculo c4= new Camion("Mercedes");
+
 
 
 
