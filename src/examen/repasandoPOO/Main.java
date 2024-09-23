@@ -7,7 +7,7 @@ public class Main {
         Persona persona1 = new Persona("Ana");
         Persona persona2 = new Persona("Juan");
 
-//        Vehiculo[] veh = new Vehiculo[3];
+
         Vehiculo coche1 = new Coche("Toyota", "Civic", 2020, 4);
         coche1.setPropietario("Juan");
 
