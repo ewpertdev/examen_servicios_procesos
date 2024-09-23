@@ -63,6 +63,10 @@ class Persona {
 
 class Main {
     public static void main(String[] args){
+        Persona p1 = new Persona("Ana");
+        Persona p2 = new Persona("Juan");
+
+
 
 
     }
