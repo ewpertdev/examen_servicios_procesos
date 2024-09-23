@@ -1,6 +1,10 @@
 package Ejercicio_1;
 
 class Vehiculo {
+    public static int getContador() {
+        return contador;
+    }
+
     private static int contador;
     String marca;
     String modelo;
