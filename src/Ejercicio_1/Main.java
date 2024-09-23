@@ -12,5 +12,14 @@ class Vehiculo {
     }
 
     int año;
+
+    public String getPropietario() {
+        return propietario;
+    }
+
+    public void setPropietario(String propietario) {
+        this.propietario = propietario;
+    }
+
     String propietario;
 }
