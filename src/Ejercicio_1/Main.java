@@ -63,14 +63,14 @@ class Persona {
 
 class Main {
     public static void main(String[] args){
-        Persona p1 = new Persona("Ana");
-        Persona p2 = new Persona("Juan");
+        Persona persona1 = new Persona("Ana");
+        Persona persona2 = new Persona("Juan");
 
-        Vehiculo c1= new Coche("Toyota");
-        Vehiculo c2= new Coche("Honda");
-        Vehiculo c3=new Coche("Ford");
+        Vehiculo coche1= new Coche("Toyota");
+        Vehiculo coche2= new Coche("Honda");
+        Vehiculo coche3=new Coche("Ford");
 
-        Vehiculo c4= new Camion("Mercedes");
+        Vehiculo camion1= new Camion("Mercedes");
 
 
 
