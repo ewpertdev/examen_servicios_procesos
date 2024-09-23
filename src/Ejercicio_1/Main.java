@@ -49,6 +49,10 @@ class Camion extends Vehiculo{
 }
 
 class Persona {
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+
     String nombre;
 
 
