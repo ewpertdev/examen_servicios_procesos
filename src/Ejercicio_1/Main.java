@@ -67,10 +67,16 @@ class Main {
         Persona persona2 = new Persona("Juan");
 
         Vehiculo coche1= new Coche("Toyota");
+        coche1.setPropietario("Juan");
+        coche1.modelo("Corolla");
+
         Vehiculo coche2= new Coche("Honda");
+        coche2.setPropietario("Ana");
         Vehiculo coche3=new Coche("Ford");
+        coche3.setPropietario(null);
 
         Vehiculo camion1= new Camion("Mercedes");
+        camion1.setPropietario("Juan");
 
 
 
