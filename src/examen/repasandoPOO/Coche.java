@@ -1,4 +1,4 @@
-package Ejercicio_1;
+package examen.repasandoPOO;
 
 public class Coche extends Vehiculo implements {
     public Coche(String marca, String modelo, int ano, int numeroPuertas) {
@@ -6,6 +6,6 @@ public class Coche extends Vehiculo implements {
         this.numeroPuertas = numeroPuertas;
     }
 
-    int numeroPuertas;
+    private int numeroPuertas;
 
 }

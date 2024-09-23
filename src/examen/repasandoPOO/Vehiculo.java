@@ -1,4 +1,4 @@
-package Ejercicio_1;
+package examen.repasandoPOO;
 
 public class Vehiculo {
     public static int getContador() {
@@ -7,8 +7,8 @@ public class Vehiculo {
 
     private static int contador;
 
-    String marca;
-    String modelo;
+    private String marca;
+    private String modelo;
 
     public Vehiculo(String marca, String modelo, int ano) {
         this.marca = marca;
@@ -16,7 +16,7 @@ public class Vehiculo {
         this.ano = ano;
     }
 
-    int ano;
+    private int ano;
 
     public String getPropietario() {
         return propietario;
@@ -26,5 +26,5 @@ public class Vehiculo {
         this.propietario = propietario;
     }
 
-    String propietario;
+    private String propietario;
 }

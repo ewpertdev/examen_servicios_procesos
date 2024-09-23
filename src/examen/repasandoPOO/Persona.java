@@ -1,4 +1,4 @@
-package Ejercicio_1;
+package examen.repasandoPOO;
 
 public class Persona {
     public Persona(String nombre) {
@@ -9,6 +9,6 @@ public class Persona {
         return nombre;
     }
 
-    String nombre;
+    private String nombre;
 
 }
