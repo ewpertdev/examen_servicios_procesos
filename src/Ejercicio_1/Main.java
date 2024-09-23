@@ -9,13 +9,13 @@ class Vehiculo {
     String marca;
     String modelo;
 
-    public Vehiculo(String marca, String modelo, int año) {
+    public Vehiculo(String marca, String modelo, int ano) {
         this.marca = marca;
         this.modelo = modelo;
-        this.año = año;
+        this.ano = ano;
     }
 
-    int año;
+    int ano;
 
     public String getPropietario() {
         return propietario;
@@ -29,8 +29,8 @@ class Vehiculo {
 }
 
 class Coche extends Vehiculo implements {
-    public Coche(String marca, String modelo, int año, int numeroPuertas) {
-        super(marca, modelo, año);
+    public Coche(String marca, String modelo, int ano, int numeroPuertas) {
+        super(marca, modelo, ano);
         this.numeroPuertas = numeroPuertas;
     }
 
@@ -39,8 +39,8 @@ class Coche extends Vehiculo implements {
 }
 
 class Camion extends Vehiculo{
-    public Camion(String marca, String modelo, int año, int capacidadCarga) {
-        super(marca, modelo, año);
+    public Camion(String marca, String modelo, int ano, int capacidadCarga) {
+        super(marca, modelo, ano);
         this.capacidadCarga = capacidadCarga;
     }
 
