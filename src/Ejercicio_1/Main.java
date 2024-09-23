@@ -29,9 +29,11 @@ class Vehiculo {
 }
 
 class Coche extends Vehiculo{
+    int numeroPuertas;
 
 }
 
 class Camion extends Vehiculo{
+    int capacidadCarga;
 
 }
