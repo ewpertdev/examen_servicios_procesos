@@ -47,3 +47,9 @@ class Camion extends Vehiculo{
     int capacidadCarga;
 
 }
+
+class Persona {
+    String nombre;
+
+
+}
