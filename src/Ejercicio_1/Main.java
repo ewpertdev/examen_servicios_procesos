@@ -66,6 +66,10 @@ class Main {
         Persona p1 = new Persona("Ana");
         Persona p2 = new Persona("Juan");
 
+        Vehiculo c1= new Coche("Toyota");
+        Vehiculo c2= new Coche("Honda");
+        Vehiculo c3=new Coche("Ford");
+
 
 
 
