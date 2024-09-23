@@ -28,7 +28,7 @@ class Vehiculo {
     String propietario;
 }
 
-class Coche extends Vehiculo{
+class Coche extends Vehiculo implements {
     public Coche(String marca, String modelo, int año, int numeroPuertas) {
         super(marca, modelo, año);
         this.numeroPuertas = numeroPuertas;
@@ -59,5 +59,11 @@ class Persona {
 
     String nombre;
 
+}
 
+class Main {
+    public static void main(String[] args){
+
+
+    }
 }
