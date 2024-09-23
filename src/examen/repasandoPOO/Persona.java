@@ -9,6 +9,6 @@ public class Persona {
         return nombre;
     }
 
-    private String nombre;
+    private final String nombre;
 
 }

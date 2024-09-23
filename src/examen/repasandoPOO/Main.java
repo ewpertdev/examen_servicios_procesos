@@ -16,6 +16,8 @@ public class Main {
         Vehiculo camion1= new Camion("Mercedes","Actros",2019,18);
         camion1.setPropietario("Juan");
 
+        System.out.println("Total de vehículos creados: " + Vehiculo.getContador());
+
 
 
 
