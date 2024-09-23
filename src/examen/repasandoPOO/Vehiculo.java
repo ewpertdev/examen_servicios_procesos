@@ -7,12 +7,7 @@ public class Vehiculo {
 
     private static int contador;
 
-    private String marca;
-    private String modelo;
-
     public Vehiculo(String marca, String modelo, int ano) {
-        this.marca = marca;
-        this.modelo = modelo;
         this.ano = ano;
     }
 
