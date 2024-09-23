@@ -20,7 +20,7 @@ public class Main {
         camion1.setPropietario("Juan");
 
         System.out.println("Total de vehículos creados: " + Vehiculo.getContador());
-        ArrayList<String>
+        ArrayList<Coche> Array
 
 
 
