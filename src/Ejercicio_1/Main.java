@@ -29,11 +29,21 @@ class Vehiculo {
 }
 
 class Coche extends Vehiculo{
+    public Coche(String marca, String modelo, int año, int numeroPuertas) {
+        super(marca, modelo, año);
+        this.numeroPuertas = numeroPuertas;
+    }
+
     int numeroPuertas;
 
 }
 
 class Camion extends Vehiculo{
+    public Camion(String marca, String modelo, int año, int capacidadCarga) {
+        super(marca, modelo, año);
+        this.capacidadCarga = capacidadCarga;
+    }
+
     int capacidadCarga;
 
 }
